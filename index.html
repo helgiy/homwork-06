@@ -277,7 +277,8 @@
                             </span>
                         </a>
 
-                        <p class="footer-text">Increase the flow of customers and sales for your business
+                        <p class="footer-text">
+                            Increase the flow of customers and sales for your business
                             with
                             digital
                             marketing
@@ -308,16 +309,35 @@
                                     </svg>
                                 </a></li>
                             <li class="footer-icon-items"><a class="footer-icon-link" href="">
-                                    <svg class="footer-icon-set" width="24px" height="24px">
+                                    <svg width="24px" height="20px">
                                         <use href="./icon.svg/icon.svg#icon-linkedin"></use>
                                     </svg>
                                 </a></li>
 
                         </ul>
                     </div>
+                    <div class="subscribe">
+                        <form>
+                            <p class="subscribe-text">Subscribe</p>
+                            <ul class="subscribe-list">
+                                <li><label>
+                                        <input class="subscribe-input" type="email" name="email" placeholder="E-mail">
+                                    </label> </li>
+                                <li><button type="submit" class="footer-button">Subscribe <a href="">
+                                            <svg class="footer-butto-set" width="24px" height="20px">
+                                                <use href="./icon.svg/close-icon.svg#icon-icon-subscribe"></use>
+                                            </svg>
+                                        </a></button></li>
+                            </ul>
+
+
+
+                        </form>
+                    </div>
 
                 </div>
             </footer>
+            <!-- modal -->
             <div class="beckdrop is-hidden" data-modal>
                 <div class="modal">
 
@@ -328,8 +348,77 @@
                         </svg>
                     </button>
 
+
+                    <p class="modal-title">Leave your contacts and we will call you back</p>
+                    <form>
+                        <div class="modal-lable">
+                            <label>
+                                <span class="modal-label-text">Name</span>
+                                <span class="input-wrap">
+                                    <input type="name" name="user-name" class="modal-input" required>
+                                    <svg class="modal-icon" width="18px" height="18px">
+                                        <use href="./icon.svg/modal.svg#icon-person-black-18dp-1"></use>
+                                    </svg>
+                                </span>
+
+                                </labe>
+                        </div>
+                        <div class="modal-lable">
+                            <label>
+                                <span class="modal-label-text">Phone</span>
+                                <span class="input-wrap">
+                                    <input type="phone" name="user-phone" class="modal-input" required>
+                                    <svg class="modal-icon" width="18px" height="18px">
+                                        <use href="./icon.svg/modal.svg#icon-phone-black-18dp-1"></use>
+                                    </svg>
+                                </span>
+                            </label>
+                        </div>
+
+
+                        <div class="modal-lable">
+                            <label>
+                                <span class="modal-label-text">Emaail</span>
+                                <span class="input-wrap">
+                                    <input type="email" name="user-email" class="modal-input" required>
+                                    <svg class="modal-icon" width="18px" height="18px">
+                                        <use href="./icon.svg/modal.svg#icon-email-black-18dp-1"></use>
+                                    </svg>
+                                </span>
+                            </label>
+                        </div>
+
+                        <label>
+                            <span class="modal-label-text">Comment</span>
+                            <textarea name="comment" placeholder="Text input" class="modal-textarea"></textarea></label>
+
+
+
+
+                        <div class="checkbox-conditions">
+                            <input type="checkbox" id="policy" value="true" class="input-check" />
+                            <label for="policy" class="checkbox-text">I accept the terms and conditions of the <span
+                                    class="privacy-policy">Privacy policy</span>
+
+                            </label>
+                        </div>
+                        <!-- <label><input class="input-check" class="checkbox-conditions" type="checkbox" name="conditions"
+                                value="true" checked />
+                            <span class="checkbox-conditions"><svg width="10px" height="8px">
+                                    <use href="./icon.svg/modal.svg#icon-hceck"></use>
+                                </svg></span>
+                            <span class="checkbox-text">I accept the terms and conditions of the <span
+                                    class="privacy-policy">Privacy
+                                    Policy</span></span></label> -->
+
+
+
+                        <button type="submit" class="modal-send">Send</button>
+                    </form>
                 </div>
+
             </div>
+
         </main>
         <script src="./js/modal.js"></script>
     </body>
